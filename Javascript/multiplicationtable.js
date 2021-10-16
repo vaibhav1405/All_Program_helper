@@ -1,18 +1,9 @@
-/* 
-------------------------------------------------------------------------------------------------
-USERNAME: ABHILASHKPY
-DESCRIPTION: THIS PROGRAM PRINTS THE MULTIPLICATION TABLE OF THE DIMENSION AS PER THE INPUT
-DATE: 1/10/2021
-------------------------------------------------------------------------------------------------
-*/
-
-
 <html>
 <head>
   <title>Multiplication Table</title>
   <script type="text/javascript">
     var rows = prompt("Input the number of ROWS:");
-    var cols = prompt("nput the number of COLUMNS:");
+    var cols = prompt("Input the number of COLUMNS:");
     if(rows == "" || rows == null)
    		 rows = 10;
     if(cols== "" || cols== null)
